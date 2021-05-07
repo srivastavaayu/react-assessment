@@ -1,0 +1,43 @@
+.LeftNav {
+  background-color: black;
+  color: white;
+  height: 100vh;
+  padding-top: 20px;
+  text-align: center;
+}
+.RightNav {
+  height: 100vh;
+  padding-top: 20px;
+  text-align: center;
+  border-left: 1px solid #f0f0f0;
+}
+.LeftNav a {
+  color: #7f7f7f;
+}
+.LeftNav a:hover {
+  color: #b2b2b2;
+}
+.LeftNav .active {
+  color: #b2b2b2;
+}
+.MiddleMain {
+  padding: 10vh 5vw;
+}
+.DashedBorderAnswer {
+  border: 3px dashed #7f7f7f;
+  border-radius: 10%;
+  height: 30vh;
+  width: 13vw;
+  text-align: center;
+}
+.DashedBorderAnswer:hover {
+  animation-name: ChangeBorderColor;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes ChangeBorderColor {
+  100% {
+    border: 3px dashed #0d6efd;
+  }
+}
