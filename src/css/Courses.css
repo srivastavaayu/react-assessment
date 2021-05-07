@@ -1,0 +1,61 @@
+.CourseIntroduction {
+  background-color: #f8f8f8;
+  padding: 8vh 2vw;
+}
+.BackToAllCourses {
+  margin: -30px 0 30px;
+}
+.BackToAllCourses a {
+  text-decoration: none;
+}
+.CourseHeading {
+  font-size: 4em;
+  margin: 15px 0px;
+}
+.CourseDescription {
+  margin: 10px 0px 30px 0px;
+}
+.CourseStartBox {
+  background-color: #fff;
+  width: 100%;
+}
+.CourseChapters {
+  padding: 8vh 3vw 0;
+}
+.card {
+  padding: 20px 10px;
+}
+.CourseStartBox img {
+  margin: 10px auto;
+  width: 50%;
+  height: 50%;
+}
+.card-text .d-flex {
+  flex-direction: column;
+}
+.BigNumber {
+  font-size: 2em;
+}
+.card-body a {
+  background-color: black;
+  border: none;
+  height: 7vh;
+}
+.ModuleCard {
+  border: none;
+}
+.ModuleCard:hover {
+  border: 1px solid rgba(0, 0, 0, 0.125);
+}
+a {
+  color: unset;
+}
+.BlurDiv:hover {
+  filter: opacity(80%);
+  transition-timing-function: ease;
+  transition-duration: 0.5s;
+  animation-fill-mode: backwards;
+}
+.BlurDiv img {
+  margin: 0 20px;
+}

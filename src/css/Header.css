@@ -1,0 +1,16 @@
+.navbar-brand {
+  margin-right: 5vw !important;
+}
+.navbar-nav {
+  letter-spacing: 0.2em;
+  font-size: 0.8em;
+}
+.active {
+  font-weight: bold;
+}
+.nav-link > .btn {
+  width: 15vw;
+}
+.nav-link > .btn-outline-primary:hover {
+  background-color: initial;
+}
