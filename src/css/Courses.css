@@ -54,7 +54,6 @@ a {
   filter: opacity(80%);
   transition-timing-function: ease;
   transition-duration: 0.5s;
-  animation-fill-mode: backwards;
 }
 .BlurDiv img {
   margin: 0 20px;
