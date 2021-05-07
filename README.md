@@ -16,3 +16,5 @@ To run this website on your local machine, make sure Node and Node Package Manag
 2. Open the terminal/command prompt.
 3. Navigate to the source repository.
 4. In the terminal/command prompt, run `npm start` to run the project.
+5. Find the port number from the terminal/command prompt. Usually, React projects are deployed on port 3000 and the you can access it on `localhost:3000`.
+6. Please navigate to `localhost:3000/Courses` and `localhost:3000/Modules` to view the work done.
