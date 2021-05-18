@@ -1,11 +1,12 @@
 .LeftNav {
   background-color: black;
   color: white;
-  height: 100vh;
   padding-top: 20px;
   text-align: center;
 }
 .RightNav {
+  background-color: white;
+  color: black;
   height: 100vh;
   padding-top: 20px;
   text-align: center;
@@ -21,6 +22,8 @@
   color: #b2b2b2;
 }
 .MiddleMain {
+  background-color: white;
+  color: black;
   padding: 10vh 5vw;
 }
 .DashedBorderAnswer {
@@ -40,4 +43,21 @@
   100% {
     border: 3px dashed #0d6efd;
   }
+}
+.RightNav a {
+  text-decoration: none;
+}
+.RightNav #BoxNav {
+  margin-top: 5vh;
+  font-size: 1.5rem;
+  justify-content: stretch;
+  align-items: center;
+}
+.RightNav #BoxNav .BoxNavBox {
+  height: 2vh;
+  width: 100%;
+  background-color: #f0f0f0;
+}
+.RightNav #BoxNav .BoxNavBox:hover {
+  transform: scaleY(1.3);
 }
