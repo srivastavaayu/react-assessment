@@ -264,7 +264,7 @@ function Module(props) {
                 className="card ModuleCard"
                 style={{ height: "22rem", marginBottom: "20px" }}
               >
-                <img src={imgsrc} className="card-img-top" />
+                <img src={imgsrc} alt="" className="card-img-top" />
                 <div className="card-body">
                   <h5 class="card-title">{title}</h5>
                   <p className="card-text grey">{description}</p>
@@ -307,7 +307,7 @@ function Courses() {
           <div className="row">
             <div className="col-xs-12 col-md-6 col-lg-6 col-xl-7">
               <p className="BackToAllCourses">
-                <a className="grey" href="">
+                <a className="grey" href="/">
                   &lt; Back to all courses
                 </a>
               </p>
@@ -325,11 +325,11 @@ function Courses() {
                 You'll use limited information to make predictions – eliminating
                 the impossible to uncover the truth. This course builds up to
                 some truly mind-bending challenges!&nbsp;
-                <a href="">Read more</a>
+                <a href="/">Read more</a>
                 <br />
                 <br />
                 <small>
-                  <a href="">View prerequisites and next steps</a>
+                  <a href="/">View prerequisites and next steps</a>
                 </small>
               </p>
             </div>
@@ -338,6 +338,7 @@ function Courses() {
                 <div className="card">
                   <img
                     src={BrilliantCourseIntroduction}
+                    alt=""
                     className="card-img-top"
                   />
                   <div className="card-body">
@@ -355,7 +356,7 @@ function Courses() {
                         </div>
                       </div>
                     </p>
-                    <a href="" className="btn btn-primary d-block">
+                    <a href="/" className="btn btn-primary d-block">
                       Start Course
                     </a>
                   </div>
@@ -375,6 +376,7 @@ function Courses() {
                 <div className="BlurDiv col-10 col-md-6 d-flex">
                   <img
                     src={BrilliantMathematicalFundamentals}
+                    alt=""
                     className="float-start"
                     height="100vh"
                   />
@@ -389,6 +391,7 @@ function Courses() {
                 <div className="BlurDiv col-10 col-md-6 d-flex">
                   <img
                     src={BrilliantComputerScienceFundamentals}
+                    alt=""
                     className="float-start"
                     height="100vh"
                   />

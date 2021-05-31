@@ -132,7 +132,7 @@ function DragandDrop(props) {
     <>
       <div className="d-flex" style={{ justifyContent: "space-between" }}>
         <p>Drag the characters into the dotted boxes.</p>
-        <a href="">Reset</a>
+        <a href="/">Reset</a>
       </div>
       <div className="d-flex" style={{ justifyContent: "space-evenly" }}>
         {props.options.map(({ helpername }) => {
@@ -144,7 +144,7 @@ function DragandDrop(props) {
           return (
             <div draggable="true">
               <p className="mt-5 text-center">{optionname}</p>
-              <img src={imgsrc} width="150px" height="150px" />
+              <img src={imgsrc} alt="" width="150px" height="150px" />
             </div>
           );
         })}
@@ -210,22 +210,22 @@ function Modules() {
         <div className="row">
           <div className="LeftNav col-md-2">
             <nav class="nav flex-column">
-              <a class="nav-link" href="">
+              <a class="nav-link" href="/">
                 &lt; Back
               </a>
-              <a class="nav-link active" href="">
+              <a class="nav-link active" href="/">
                 Logic
               </a>
             </nav>
           </div>
           <div className="MiddleMain col-12 col-md-7">{questionType}</div>
           <div className="RightNav col-md-3">
-            <a href="">Lesson 1</a>
+            <a href="/">Lesson 1</a>
             <h5>Warmup Puzzles</h5>
             <div id="BoxNav" className="d-flex">
               <div>
                 <a
-                  href=""
+                  href="/"
                   onClick={() => {
                     level >= 1 ? setLevel(level - 1) : setLevel(0);
                   }}
@@ -240,7 +240,7 @@ function Modules() {
               <div className="BoxNavBox" onClick={() => setLevel(4)}></div>
               <div className="BoxNavBox" onClick={() => setLevel(5)}></div>
               <div>
-                <a href="" onClick={() => {}}>
+                <a href="/" onClick={() => {}}>
                   &gt;
                 </a>
               </div>
